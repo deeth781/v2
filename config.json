@@ -10,8 +10,8 @@
     "PREFIX": "/",
     "box_admin": "9468459816595850",
     "ADMINBOT": [
-        "61574596121645"
-        
+        "61574596121645",
+        "100071343709430"
     ],
     "NDH": [
         ""
@@ -37,7 +37,7 @@
             ".gif"
         ]
     },
-	"FCAOption": {
+    "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
         "pauseLog": true,

@@ -20,7 +20,7 @@ module.exports = function ({ api, models, Users, Threads, Currencies }) {
         if (event.senderID != api.getCurrentUserID() && !ADMINBOT.includes(senderID)) {
             let thuebot;
             try {
-                thuebot = JSON.parse(require('fs-extra').readFileSync(process.cwd() + '/modules/data/thuebot.json'));
+                thuebot = JSON.parse(require('fs-extra').readFileSync(process.cwd() + 'modules/commands/Admin/cache/data/keys.json'));
             } catch {
                 thuebot = [];
             }
@@ -29,7 +29,13 @@ module.exports = function ({ api, models, Users, Threads, Currencies }) {
 
             // Kiểm tra nếu nhóm chưa thuê bot
             if (!find_thuebot) {
-                return api.sendMessage(`❎ Nhóm của bạn chưa thuê bot, vui lòng reply tin nhắn này và nhập key thuê bot hoặc liên hệ Admin để lấy key thuê bot\nfb: ${(!global.config.FACEBOOK_ADMIN) ? "Exclude Admin if not configured!" : global.config.FACEBOOK_ADMIN}`, event.threadID, (e, i) => {
+                return api.sendMessage(
+    `❎ 𝗡𝗵𝗼́𝗺 𝗰𝘂̉𝗮 𝗯𝗮̣𝗻 𝗰𝗵𝘂̛𝗮 𝘁𝗵𝘂𝗲̂ 𝗯𝗼𝘁 𝗵𝗼𝗮̣̆𝗰 𝗸𝗲̂́𝘁 𝘁𝗵𝘂́𝗰 𝗵𝗼̛̣𝗽 𝗱𝗼̂̀𝗻𝗴!\n\n` +
+    `🛠️ 𝗛𝘂̛𝗼̛́𝗻𝗴 𝗱𝗮̂̃𝗻:\n` +
+    `→ 𝙍𝙚𝙥𝙡𝙮 tin nhắn này và nhập 🆔 𝗞𝗘𝗬 𝗧𝗛𝗨𝗘̂ 𝗕𝗢𝗧 để kích hoạt lại.\n` +
+    `→ 𝗛𝗼𝗮̣̆𝗰 𝗹𝗶𝗲̂𝗻 𝗵𝗲̣̂ 𝗔𝗱𝗺𝗶𝗻 đ𝗲̂̉ 𝘅𝗶𝗻 𝗸𝗲𝘆 𝗺𝗼̛́𝗶.\n\n` +
+    `👤 𝗔𝗱𝗺𝗶𝗻: ${global.config.FACEBOOK_ADMIN || "Chưa cấu hình admin!"}`,
+    event.threadID, (e, i) => {
                     global.client.handleReply.push({
                         name: 'rent',
                         messageID: i.messageID,

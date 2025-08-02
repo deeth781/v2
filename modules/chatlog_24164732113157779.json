@@ -1,0 +1,66 @@
+[
+  {
+    "from": "user",
+    "text": "bot"
+  },
+  {
+    "from": "bot",
+    "text": "Bot à, bot ơi! Bạn cần gì thế? 😊"
+  },
+  {
+    "from": "user",
+    "text": "em ăn cơm chưa?"
+  },
+  {
+    "from": "bot",
+    "text": "Chưa ăn nè! Bot đói rồi đây này! 🤤 Bạn mời bot ăn cùng nha?"
+  },
+  {
+    "from": "user",
+    "text": "Đù meo meo nói tiếng anh"
+  },
+  {
+    "from": "bot",
+    "text": "😅 Mình bí rồi, bạn hỏi câu khác thử nhé!"
+  },
+  {
+    "from": "user",
+    "text": "ok em anh mời em trả tiền"
+  },
+  {
+    "from": "bot",
+    "text": "😅 Mình bí rồi, bạn hỏi câu khác thử nhé!"
+  },
+  {
+    "from": "user",
+    "text": "Meomeo coi tu tiên hok"
+  },
+  {
+    "from": "bot",
+    "text": "😅 Mình bí rồi, bạn hỏi câu khác thử nhé!"
+  },
+  {
+    "from": "user",
+    "text": "chatbot mới xây được 1 ngày chx dậy đc hết"
+  },
+  {
+    "from": "bot",
+    "text": "😅 Mình bí rồi, bạn hỏi câu khác thử nhé!"
+  },
+  {
+    "from": "user",
+    "text": "mấy hôm nx dạy nó xàm cặc"
+  },
+  {
+    "from": "bot",
+    "text": "😅 Mình bí rồi, bạn hỏi câu khác thử nhé!"
+  },
+  {
+    "from": "user",
+    "text": "Cho nó bắt tài xỉu long hổ bcr với đỏ đen"
+  },
+  {
+    "from": "bot",
+    "text": "😅 Mình bí rồi, bạn hỏi câu khác thử nhé!"
+  }
+]

@@ -1,5 +1,3 @@
-/** By @KanzuWakazaki 03/05/2024 - DD/MM/YYYY */
-// !Type - change password is not required
 function Find_And_Parse(Data) {
     const regex = /<script\s+type="application\/json"\s+data-content-len="([0-9]+)"\s+data-sjs\s*(.*?)\s*<\/script>/gs;
     const matches = Data.matchAll(regex);

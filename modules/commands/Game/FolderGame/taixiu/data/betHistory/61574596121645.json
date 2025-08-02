@@ -1,0 +1,29 @@
+[
+    {
+        "senderID": "61574596121645",
+        "choice": "tài",
+        "betAmount": 10000,
+        "phien": 12,
+        "time": 1753928344623,
+        "winAmount": 20000,
+        "ket_qua": "thắng"
+    },
+    {
+        "senderID": "61574596121645",
+        "choice": "tài",
+        "betAmount": 1000,
+        "phien": 13,
+        "time": 1753969035836,
+        "winAmount": 2000,
+        "ket_qua": "thắng"
+    },
+    {
+        "senderID": "61574596121645",
+        "choice": "tài",
+        "betAmount": 1000000,
+        "phien": 15,
+        "time": 1754007864091,
+        "winAmount": 2000000,
+        "ket_qua": "thắng"
+    }
+]
